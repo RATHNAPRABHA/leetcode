@@ -1,24 +1,6 @@
 class Solution {
     public String multiply(String num1, String num2) {
-      /*  char[] n=num1.toCharArray();
-        char[] m=num2.toCharArray();
-        int s=1,e=0;
-        for(int i=0;i<n.length-1;i++){
-            for(int j=0;j<m.length-1;j++){
-                s=(int)n[i]*(int)m[j];
-                e+=s;
-            }
-        }
-        int g=e;
-        return String.valueOf(g);
-        long n=Long.parseLong(num1);
-        long m=Long.parseLong(num2);
-        long re=Math.abs(m*n);
-        String  mm=String.valueOf(re);
-        return mm;*/
-        
-
-        if (num1.equals("0") || num2.equals("0")) {
+       if (num1.equals("0") || num2.equals("0")) {
             return "0";
         }
 
